@@ -1,0 +1,256 @@
+* {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+}
+
+#title {
+    color: #bc0930;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 120px;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+}
+#flash {
+    padding: 20px 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 10px 10px 10px;
+    background: #94a596;
+    border: 0;
+}
+#flash:hover {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 1px solid #8b8384;
+    color: #000;
+    
+}
+
+.poster {
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+    margin-bottom: 150px;
+    background-color: rgba(229, 84, 115, 0.10);
+    padding: 30px 40px 0px 120px;
+}
+.poster-content {
+    margin-bottom: 10%;
+}
+
+.poster-name {
+    color: #272727;
+    font-size: 68px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+.poster-details {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 40px;
+}
+
+/* all section global */
+
+.button-class {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #dfd3d3;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+}
+.button-class:hover {
+    padding: 20px 40px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 700;
+    font-size: 20px;
+    box-shadow: 20px 20px 10px;
+    background: #721529;
+}
+
+.title {
+    color: #272727;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;    
+}
+
+.featuredFlower {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    line-height: 25px;   
+}
+
+.flo-des {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#flo1 > img {
+    border-radius: 240px 240px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 100px 60px 0px 50px;
+}
+#flo2 > img {
+    border-radius: 240px 240px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 100px 50px 60px 50px;
+}
+#flo3 > img {
+    border-radius: 240px 240px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    padding: 65px 60px 0px 50px;
+}
+
+.flo-des p {
+    color: #272727;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: lighter;
+    line-height: 30px;
+    text-decoration-line: underline;
+}
+
+.feature-des {
+    margin: 120px 0px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+.feature {
+    text-align: center;
+}
+
+/* hot deal section */
+
+.deal-box {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.signup {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+    color: #fff;
+    box-shadow: 10px 10px 10px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 40%;    
+}
+.signup:hover {
+    padding: 20px 40px;
+    border-radius: 8px;
+    background: #cfc5c7;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 40%;    
+}
+
+.instagram-section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.img-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+.latestdeal {
+    margin-top: 100px;
+    text-align: center;
+    background-image: url("./Flower resource/Rectangle 9.png");
+    padding: 200px 150px 300px 150px ;
+    background-repeat: no-repeat;
+    background-position: center;  
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#email {
+    padding: 22px;
+    border-radius: 8px;
+    margin-right: 20px;
+    padding-top: 25px; 
+    background: #FFF;
+    width: 700px;
+      
+}
+footer {
+    background: #111010;
+    padding: 100px 200px 100px 200px;
+}
+.footer-body {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: center;
+}
+.footer-des {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;    
+}
+
+.copy {
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
